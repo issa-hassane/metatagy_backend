@@ -6,6 +6,12 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Hello welcome to MetaTagy",
+  });
+});
+
 app.get("/metadata", (req, res) => {
   var myurl = req.query.q;
   var portion = myurl.slice(0, 4);
