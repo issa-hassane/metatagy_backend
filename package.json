@@ -1,0 +1,23 @@
+{
+  "name": "meta_tagy",
+  "version": "1.0.0",
+  "description": "Meta tag preview",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "meta",
+    "tag",
+    "metatag",
+    "preview"
+  ],
+  "author": "Issa Hassane",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "url-metadata": "^2.5.0"
+  }
+}
