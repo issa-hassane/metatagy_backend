@@ -3,6 +3,7 @@
 ## how to run the project
 
 - Clone the repo
+- Create `.env` file and add the port number into it eg: `PORT=5000`
 - Download and install [nodeJS](https://nodejs.org/en/download/)
 - Open your terminal where the project is then run the following commands:
 
