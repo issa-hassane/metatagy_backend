@@ -1,5 +1,8 @@
 # Metatagy | Back End
 
+## Overview
+This is an API that takes a link as a query parameter and returns all available metadata of the given website.
+
 ## how to run the project
 
 - Clone the repo
@@ -29,3 +32,8 @@ https://benevolent-otter-52b50f.netlify.app/metadata/?q=github.com
 
 ## Link to the front-end code:
 [Front End code](https://github.com/issa-hassane/metatagy_frontend)
+
+
+## Big thanks to the Ineuron team for hosting this challenge!
+
+Challenge Powered By [FindCoder.io](https://www.findcoder.io/)
