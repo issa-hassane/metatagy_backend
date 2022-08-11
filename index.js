@@ -6,6 +6,8 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
+const PORT = process.env.PORT || 4000;
+
 app.get("/", (req, res) => {
   res.status(200).json({
     message: "Hello welcome to MetaTagy",
@@ -35,6 +37,6 @@ app.get("/metadata", (req, res) => {
   );
 });
 
-app.listen(process.env.PORT, () => {
-  console.log("server is up and running !");
+app.listen(PORT, () => {
+  console.log("server is up and running ! PORT:"+PORT);
 });
