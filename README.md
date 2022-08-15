@@ -27,7 +27,7 @@ npm start
 - To get all the metatags from a given query param q (`in this example q=github.com`) :
 
 ```
-https://benevolent-otter-52b50f.netlify.app/metadata/?q=github.com
+https://thawing-bayou-13413.herokuapp.com/metadata/?q=github.com
 ```
 
 ## Link to the front-end code:
